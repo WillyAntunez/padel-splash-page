@@ -1,0 +1,10 @@
+// reset ul styles
+@mixin reset-li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
+}
