@@ -15,7 +15,7 @@ export const LandingLayout = ({ children, showAnimation = false }) => {
     <section
       style={{
         width: '100%',
-        minHeight: '100vh',
+        height: '100%',
         display: 'flex',
         flexDirection: 'column',
       }}
@@ -34,6 +34,8 @@ export const LandingLayout = ({ children, showAnimation = false }) => {
             flex: 1,
             display: 'flex',
             flexDirection: 'column',
+            overflow: 'hidden',
+            width: '100%',
           }}
         >
           {children}

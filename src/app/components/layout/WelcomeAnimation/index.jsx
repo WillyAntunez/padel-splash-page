@@ -9,7 +9,7 @@ export const WelcomeAnimation = ({ onFinishAnimation = () => {} }) => {
     setTimeout(() => {
       setHasFinished(true);
       onFinishAnimation();
-    }, 3750);
+    }, 3300);
   }, []);
 
   return (
