@@ -40,7 +40,7 @@ export const HomePage = () => {
 
         {/* button */}
         <button className="home-page__button">
-          <NavLink to="/contact">¡Contactanos!</NavLink>
+          <NavLink to="/contact">¡Contáctanos!</NavLink>
         </button>
       </div>
 

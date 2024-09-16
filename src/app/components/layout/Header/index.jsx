@@ -41,7 +41,7 @@ export const Header = () => {
                 <NavLink to="/about">Sobre nosotros</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contactanos</NavLink>
+                <NavLink to="/contact">Contáctanos</NavLink>
               </li>
             </ul>
           </nav>
@@ -126,7 +126,7 @@ export const Header = () => {
               </li>
               <li>
                 <NavLink to="/contact" onClick={onCloseAsideMenu}>
-                  Contactanos
+                  Contáctanos
                 </NavLink>
               </li>
             </ul>

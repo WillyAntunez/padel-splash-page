@@ -27,14 +27,12 @@ export const LandingLayout = ({ children, showAnimation = false }) => {
 
       <Header />
 
-      {/* todo: show this after the animation finished   */}
       {hasFinishedAnimation && (
         <div
           style={{
             flex: 1,
             display: 'flex',
             flexDirection: 'column',
-            overflow: 'hidden',
             width: '100%',
           }}
         >
